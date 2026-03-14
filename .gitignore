@@ -1,0 +1,16 @@
+#Commands in case I forget - dont delete this 
+
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+
+
+python3 -m pip install -r requirements.txt
+python3 -m uvicorn main:app --reload --port 8000
+
+# Ignore virtual environment
+venv/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
