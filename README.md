@@ -21,3 +21,5 @@ A Python Flask web application for showcasing activewear brands with user signup
 - Frontend page with title "ALLINACTIVE"
 - Placeholders for activewear brands
 - Popup modal for new users to sign up to Tier 1, Tier 2, or Tier 3
+
+python3 -m venv venv
